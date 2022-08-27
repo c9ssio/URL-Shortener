@@ -1,0 +1,54 @@
+.container {
+  height: 617px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  margin-left: 300px;
+  margin-top: 20px;
+  margin-bottom: 60px;
+
+}
+
+.header h1 {
+  margin-left: 265px;
+  font-size: 36px;
+  color: aliceblue;
+}
+
+.links-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.btn-link {
+  background-color: rgb(49, 49, 49);
+  border: none;
+  border-radius: 4px;
+  color: aliceblue;
+  height: 30px;
+  width: 600px;
+  text-align: start;
+  padding: 8px;
+  align-items: center;
+  display: flex;
+  font-size: 16px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.btn-link svg {
+  margin-right: 6px;
+}
+
+.btn-trash {
+  background-color: transparent;
+  border: none;
+  margin-left: -24px;
+}

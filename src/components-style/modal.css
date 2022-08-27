@@ -1,0 +1,55 @@
+.modal-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(187, 187, 187);
+  width: 450px;
+  height: 110px;
+  border-radius: 10px;
+  position: relative;
+  position: absolute;
+  bottom: 20px;
+  left: 460px;
+  box-shadow: 0 0 .5em black;
+  animation: slideY 1s;
+}
+
+@keyframes slideY {
+  from {
+    transform: translateY(100px)
+  } to {
+    transform: translateY(0);
+  }
+}
+
+.modal-container h2 {
+  margin-top: -10px;
+}
+
+.close-w {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  font-size: 18px;
+  color: white;
+  padding: 1px 2px;
+  border-radius: 2px;
+  background-color: brown;
+  font-weight: bolder;
+  position: absolute;
+  right: 0px;
+  top: 0px
+}
+
+.btn-modal-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2px;
+  margin-top: 20px;
+  width: 380px;
+}
+
+

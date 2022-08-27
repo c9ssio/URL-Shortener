@@ -1,0 +1,82 @@
+.home-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+  height: 417px;
+
+  margin: 100px auto;
+
+  border: none;
+  border-radius: 10px;
+
+  background-color: rgb(49, 49, 49);
+
+  box-shadow: 0 0 .5em black;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  height: 250px;
+  width: 100%;
+
+  margin-top: -60px;
+
+}
+
+
+.logo-container img {
+  width: 30%;
+}
+
+.logo-container h1 {
+  color: aliceblue;
+}
+
+.input-area {
+  height: 75px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 10px;
+
+}
+
+.input-area input {
+  height: 90px;
+  width: 400px;
+  outline: 0;
+
+  padding: 3px;
+  color: aliceblue;
+  background-color: rgb(32, 32, 32);
+  border: none;
+  border-radius: 8px;
+}
+
+.input-area input::placeholder {
+  color: rgb(170, 170, 170);
+  font-size: 14px;
+  padding: 4px;
+}
+
+.input-area button {
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  margin-top: 10px;
+  background-color: rgb(64, 56, 177);
+  color: aliceblue;
+}
+
+.input-area button:hover {
+  background-color: rgb(32, 32, 32);
+  transition: .2s;
+  transform: scale(1.1) ;
+}
