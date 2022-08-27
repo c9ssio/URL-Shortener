@@ -45,14 +45,14 @@ export default function Links () {
 
       {myLinks.map(link => (
         <div className='links-container' key={link.id}>
-        <button className='btn-link' onClick={() => handleOpenLink(link)}>
-          <FiLink size={18} color={'#FFF'} />
-          {link.long_url}
-        </button>
-        <button className='btn-trash' onClick={() => handleDelete(link.id)}>
-        <FiTrash size={20} color={'#FFF'} />
-        </button>
-      </div>
+          <button className='btn-link' onClick={() => handleOpenLink(link)}>
+            <FiLink size={18} color={'#FFF'} />
+            {link.long_url}
+          </button>
+          <button className='btn-trash' onClick={() => handleDelete(link.id)}>
+          <FiTrash size={20} color={'#FFF'} />
+          </button>
+        </div>
       ))}
 
       {showModal && 
