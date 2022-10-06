@@ -1,15 +1,15 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom"; //Biblioteca de rotas do react.
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import Home from "../pages/Home";   //Importando componentes.
-import Links from "../pages/Links";
+import Home from "../pages/home";
+import Links from "../pages/links";
 
-export default function RouteApp () {  //Criando componente e indicando as rotas.
+export default function RouteApp() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element= {<Home/>} />
-        <Route path="/links" element= {<Links/>} />
+        <Route path="/" element={<Home />} />
+        <Route path="/links" element={<Links />} />
       </Routes>
     </BrowserRouter>
-  )
+  );
 }

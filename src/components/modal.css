@@ -11,14 +11,15 @@
   position: absolute;
   bottom: 20px;
   left: 460px;
-  box-shadow: 0 0 .5em black;
+  box-shadow: 0 0 0.5em black;
   animation: slideY 1s;
 }
 
 @keyframes slideY {
   from {
-    transform: translateY(100px)
-  } to {
+    transform: translateY(100px);
+  }
+  to {
     transform: translateY(0);
   }
 }
@@ -40,7 +41,7 @@
   font-weight: bolder;
   position: absolute;
   right: 0px;
-  top: 0px
+  top: 0px;
 }
 
 .btn-modal-link {
@@ -51,5 +52,3 @@
   margin-top: 20px;
   width: 380px;
 }
-
-

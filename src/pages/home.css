@@ -12,7 +12,7 @@
 
   background-color: rgb(49, 49, 49);
 
-  box-shadow: 0 0 .5em black;
+  box-shadow: 0 0 0.5em black;
 }
 
 .logo-container {
@@ -25,9 +25,7 @@
   width: 100%;
 
   margin-top: -60px;
-
 }
-
 
 .logo-container img {
   width: 30%;
@@ -45,7 +43,6 @@
   flex-direction: column;
 
   margin-top: 10px;
-
 }
 
 .input-area input {
@@ -77,6 +74,6 @@
 
 .input-area button:hover {
   background-color: rgb(32, 32, 32);
-  transition: .2s;
-  transform: scale(1.1) ;
+  transition: 0.2s;
+  transform: scale(1.1);
 }
